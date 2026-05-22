@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Check lista pendências estágio</title>
+    <title>Check lista pendências Residente jurídico</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,7 +11,7 @@
 <div class="container">
     <h2>Checklist de Documentação de residentes</h2>
     <p style="font-size: 14px; color: #666;">Marque os documentos que o estagiário <b>JÁ ENTREGOU</b>. O texto será gerado apenas com os documentos <b>DESMARCADOS</b>.</p>
-    <p style="font-size: 14px; color: #666;">Marque as caixas <b>Conciliador</b> ou <b>Pós Graduação</b> quando confirmado ser alguma das duas situações, caso não tenha certeza marque ambas as caixas</M></p>
+    <p style="font-size: 14px; color: #666;">👍</M></p>
 
     <div class="section-title">Documentação Geral</div>
     <div class="item"><input type="checkbox" id="check_ctps"><label for="check_ctps">Carteira de trabalho</label><div class="tooltip">?<span>Página com foto</span></div></div>
@@ -28,6 +28,8 @@
 
     <div class="item"><input type="checkbox" id="check_foto"><label for="check_foto">Foto 3x4</label></div>
 
+    <div class="item"><input type="checkbox" id="check_banco"><label for="check_banco">Comprovante Bancário (Banestes)</label><div class="tooltip">?<span>Conta corrente ou universitária</span></div></div>
+
     <div class="item"><input type="checkbox" id="check_aso"><label for="check_aso">Atestado de saúde ocupacional(ASO)</label><div class="tooltip">?<span>fornecido por médico do trabalho, com validade de até 60 dias</span></div></div>
 
     <div class="item"><input type="checkbox" id="check_esocial"><label for="check_esocial">ESocial</label></div>
@@ -38,9 +40,11 @@
 
     <div class="item"><input type="checkbox" id="check_form_i"><label for="check_form_i">Formulário I - Ficha Cadastral</label></div>
 
+    <div class="item"><input type="checkbox" id="check_declaracao_banco"><label for="check_declaracao_banco">Declaração de Conta Bancária</label></div>
+
     <div class="item"><input type="checkbox" id="check_decl_sem_vinculo"><label for="check_decl_sem_vinculo">Declaração de não-vínculo Profissional (Formulário VI)</label></div>
 
-    <div class="item"><input type="checkbox" id="check_form_v"><label for="check_form_v">Formulário V - Declaração de vida pregressa</label></div>
+    <div class="item"><input type="checkbox" id="check_form_v"><label for="check_form_v">Formulário V - Declaração de inquérito policial<div class="tooltip">?<span>Assinatura digital ou firma reconhecida(vida preguessa)</span></div></label></div>
 
     <div class="item"><input type="checkbox" id="check_form_viii"><label for="check_form_viii">Formulário VIII - Declaração de Parentesco</label></div>
     
