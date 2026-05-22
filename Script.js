@@ -51,7 +51,6 @@ button.addEventListener("click", () => {
     ];
 
     const pendenciasPos = [
-    getPendencia("check_pos_vigencia", "(X) Declaração contendo início e término do curso de pós-graduação."),
     getPendencia("check_decl_ensino", "(X) Declaração da Instituição de Ensino (vínculo educacional);")
     ];
 
