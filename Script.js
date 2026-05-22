@@ -26,6 +26,7 @@ button.addEventListener("click", () => {
     getPendencia("check_ctps", "(X) Carteira de Trabalho (página com foto);"),
     getPendencia("check_identidade", "(X) Carteira de Identidade;"),
     getPendencia("check_cpf", "(X) Cadastro de Pessoa Física (CPF);"),
+    getPendencia("check_banco", "(X) Comprovante Bancário (cópia do extrato ou cartão) contendo número da conta corrente ou universitária (Banco do Estado do Espírito Santo - Banestes) (Art. 24);"),
     getPendencia("check_residencia", "(X) Comprovante de Residência;"),
     getPendencia("check_eleitor", "(X) Título de Eleitor;"),
     getPendencia("check_pis", "(X) PIS/PASEP;"),
@@ -36,6 +37,7 @@ button.addEventListener("click", () => {
     getPendencia("check_oab", "(X) Declaração de não inscrição ativa junto à OAB;"),
     getPendencia("check_pos_vigencia", "(X) Declaração contendo início e término do curso;"),
     getPendencia("check_form_i", "(X) Formulário I - Ficha Cadastral;"),
+    getPendencia("check_declaracao_banco", `(X) <a href="https://www.tjes.jus.br/wp-content/uploads/Formul%C3%A1rio-Declara%C3%A7%C3%A3o-de-Conta-Banc%C3%A1ria-20170717.pdf" target="_blank" style="color: blue; text-decoration: underline;">Declaração de Conta Bancária, devidamente preenchida e assinada</a>;`),
     getPendencia("check_decl_sem_vinculo", "(X) Declaração de não-vínculo Profissional (Formulário VI);"),
     getPendencia("check_form_v", "(X) Formulário V - Declaração de vida pregressa;"),
     getPendencia("check_form_viii", "(X) Formulário VIII - Declaração de Parentesco;")
