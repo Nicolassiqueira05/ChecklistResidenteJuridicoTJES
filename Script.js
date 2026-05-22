@@ -31,7 +31,7 @@ button.addEventListener("click", () => {
     getPendencia("check_pis", "(X) PIS/PASEP;"),
     getPendencia("check_foto", "(X) Fotografia 3x4;"),
     getPendencia("check_aso", "(X) ASO fornecido por médico do trabalho, com validade de até 60 dias;"),
-    getPendencia("check_esocial", "(X) Esocial;"),
+    getPendencia("check_esocial", "(X) ESocial;"),
     getPendencia("check_diploma_extra", "(X) Diploma e/ou comprovante de conclusão de curso;"),
     getPendencia("check_oab", "(X) Declaração de não inscrição ativa junto à OAB;"),
     getPendencia("check_pos_vigencia", "(X) Declaração contendo início e término do curso;"),
