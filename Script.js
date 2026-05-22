@@ -80,37 +80,18 @@ button.addEventListener("click", () => {
     writeClipboardHTML(htmlContent, htmlContent.replace(/<[^>]*>/g, ''));
 });
 
-const checkCon = document.getElementById("check_con")
-const checkConciliadorInfo = document.getElementById("check_conciliador_informatica")
-
 const checkPos = document.getElementById("check_pos")
-const checkPosDiploma = document.getElementById("check_pos_diploma")
-const checkPosVigencia = document.getElementById("check_pos_vigencia")
-
-function updateConciliador(){
-    if(!checkCon.checked){
-        checkConciliadorInfo.checked = false
-        checkConciliadorInfo.disabled = true
-    }else{
-        checkConciliadorInfo.disabled = false
-    }
-}
+const checkPosDiploma = document.getElementById("check_decl_ensino")
 
 function updatePos(){
     if(!checkPos.checked){
         checkPosDiploma.checked = false
-        checkPosVigencia.checked = false
-
         checkPosDiploma.disabled = true
-        checkPosVigencia.disabled = true
     }else{
         checkPosDiploma.disabled = false
-        checkPosVigencia.disabled = false
     }
 }
 
-checkCon.addEventListener("change", updateConciliador)
 checkPos.addEventListener("change", updatePos)
 
-updateConciliador()
 updatePos()
